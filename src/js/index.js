@@ -52,12 +52,12 @@ const revenueChart = new ApexCharts(document.querySelector('#revenue-chart'), {
 
 const saleChart = new ApexCharts(document.querySelector('#sale-chart'), {
   colors: [
-    'hsl(var(--p))',
-    'hsl(var(--s))',
-    'hsl(var(--in))',
-    'hsl(var(--wa))',
-    'hsl(var(--su))',
-    'hsl(var(--er))',
+    'oklch(var(--p))',
+    'oklch(var(--s))',
+    'oklch(var(--in))',
+    'oklch(var(--wa))',
+    'oklch(var(--su))',
+    'oklch(var(--er))',
   ],
   theme: {
     mode: theme.mode,
