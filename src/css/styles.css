@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .direction-ltr {
-    direction: ltr;
-  }
-
-  .direction-rtl {
-    direction: rtl;
-  }
-}
-
 @layer components {
   /* Button */
   .btn:not(.btn-circle) {
