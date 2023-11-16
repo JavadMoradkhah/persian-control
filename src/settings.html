@@ -787,9 +787,9 @@
 
       <div class="max-w-7xl mx-auto" x-data="{ activeTab: 'profile' }">
         <!-- Tabs - START -->
-        <div class="tabs w-full relative top-px">
+        <div class="tabs tabs-lifted w-fit relative top-px">
           <a
-            class="tab tab-lifted"
+            class="tab"
             :class="{
                 'tab-active': activeTab === 'profile',
                 'border-b-0': activeTab === 'security'
@@ -799,7 +799,7 @@
             پروفایل
           </a>
           <a
-            class="tab tab-lifted"
+            class="tab"
             :class="activeTab === 'security' && 'tab-active'"
             @click="activeTab = 'security'"
             >امنیت</a
