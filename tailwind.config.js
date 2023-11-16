@@ -13,7 +13,6 @@ export default {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    rtl: true,
     logs: false,
     themes: tailwindThemes,
   },
