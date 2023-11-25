@@ -91,10 +91,10 @@ const saleChart = new ApexCharts(document.querySelector('#sale-chart'), {
         labels: {
           show: true,
           name: {
-            color: 'hsl(var(--bc))',
+            color: 'oklch(var(--bc))',
           },
           value: {
-            color: 'hsl(var(--bc))',
+            color: 'oklch(var(--bc))',
             formatter: function (val) {
               return Number(val).toLocaleString();
             },
