@@ -1,5 +1,6 @@
 import '../css/styles.css';
 import Alpine from 'alpinejs';
+// Note: Remove faker imports on production
 import { faker } from '@faker-js/faker/locale/fa';
 import themeStore from './stores/theme';
 import sidebarStore from './stores/sidebar';
